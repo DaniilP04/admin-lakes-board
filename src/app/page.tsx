@@ -91,7 +91,7 @@ export default function DashboardPage() {
         </section>
 
         <section>
-          <UserManager users={users} onRefresh={loadUsers} loading={loading} />
+          <UserManager/>
         </section>
       </main>
     </div>
